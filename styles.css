@@ -23,7 +23,7 @@ body.landing {
     color: var(--color-5);
 }
 .links > .link > a > img {
-    width: 50px;
+    width: 40px;
     height: auto;
 }
 .links > .link > a:hover {
@@ -36,4 +36,8 @@ body.landing {
 }
 .content > *{
     color: var(--color-5);
+}
+.content > .row > * > p {
+    color: gray;
+    font-weight: bold;
 }
