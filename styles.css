@@ -1,20 +1,39 @@
 :root {
-    --main-color: #e2dbbe;
+    --color-1: #e2dbbe;
     --color-2: #d5d6aa;
     --color-3: #9dbbae;
     --color-4: #769fb6;
     --color-4: #188fa7;
+    --color-5: #115B6A;
 }
-html,body {
+html {
     width: 100%;
-    height: 100vh;
+    height: 1fr;
 }
-body {
-    background-color: var(--main-color);
+body.landing {
+    height: 100%;
+    padding: 10px 0 0 0;
+    background-color: var(--color-1);
 }
 
-.link > .link > img {
+.svg-icon {
+    vertical-align: bottom;
+}
+.links > .link > a {
+    color: var(--color-5);
+}
+.links > .link > a > img {
     width: 50px;
     height: auto;
-    vertical-align: middle;
+}
+.links > .link > a:hover {
+    color: var(--color-4);
+}
+
+.content {
+    width: 100%;
+    margin-top: 50px;
+}
+.content > *{
+    color: var(--color-5);
 }
