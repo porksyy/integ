@@ -55,6 +55,8 @@
                           <button class="dropdown-item color-override-5" onclick="upd_course_text(3)">BSEMC</button>
                           <div class="dropdown-divider"></div>
                           <button class="dropdown-item color-override-5" onclick="upd_course_text(4)">BSDS</button>
+                          <div class="dropdown-divider"></div>
+                          <button class="dropdown-item color-override-5" onclick="upd_course_text(5)">BSEMCG</button>
                       </div>
                   </div>
               </div>
@@ -70,7 +72,7 @@
       // For COURSE Selection
       let prog_select = document.getElementById('course-dropdown');
       let search_link = document.getElementById('search');
-      const COURSE = ["BSIT","BSCS","BSIS","BSEMC","BSDS"];
+      const COURSE = ["BSIT","BSCS","BSIS","BSEMC","BSDS","BSEMCG"];
       function upd_course_text(id){ 
           prog_select.innerHTML = COURSE[id];
           // TODO change to link
