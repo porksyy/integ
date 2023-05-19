@@ -42,7 +42,7 @@
             <div class="col-md-3 offset-md-1" style="width:fit-content;">
                <p>What is your course? <img src="imgs/hat.svg" alt="" style="width:25px;height:auto;"></p> 
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2" style="width: fit-content;">
                 <div class="dropdown">
                     <button class="btn btn-outline-primary dropdown-toggle color-override-5" type="button" id="course-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Course </button>
                     <div class="dropdown-menu" aria-labelledby="course-dropdown">
@@ -58,13 +58,23 @@
                     </div>
                 </div>
             </div>
+            <div class="col-md-1 col-sm-1">
+                <a href="#" class="fs-5" id="search">
+                    <div class="search-btn"> <img src="imgs/search.svg" alt="" style="position: relative;width: 30px;height:auto;"> </div>
+                </a>
+            </div>
         </div>
     </div>
   </body>
   <script>
       // For COURSE Selection
       let prog_select = document.getElementById('course-dropdown');
+      let search_link = document.getElementById('search');
       const COURSE = ["BSIT","BSCS","BSIS","BSEMC","BSDS"];
-      function upd_course_text(id){ prog_select.innerHTML = COURSE[id]; }
+      function upd_course_text(id){ 
+          prog_select.innerHTML = COURSE[id];
+          // TODO change to link
+          search_link.href = COURSE[id] + ".html";
+      }
   </script>
 </html>

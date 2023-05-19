@@ -13,10 +13,11 @@ html {
 }
 body.landing {
     height: 100%;
-    background-color: var(--color-1);
-}
-.bg-color-1 {
-    background-color: var(--color-1);
+    background-image: url('imgs/bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -100px;
+    /* background-color: var(--color-1); */
 }
 .svg-icon {
     vertical-align: bottom;
@@ -43,6 +44,10 @@ body.landing {
     color: gray;
     font-weight: bold;
 }
+
+
+
+/* overrides */
 .color-override-5 {
     --bs-btn-color: var(--color-5);
     --bs-btn-border-color: var(--color-5);
@@ -57,10 +62,46 @@ body.landing {
     --bs-dropdown-link-active-bg: var(--color-5);
     --bs-dropdown-link-hover-color: white;
 }
+.nav-link {
+    position: relative;
+}
+.nav-link::after {
+    content: "";
+    transition: all 500ms ease;
+    position: absolute;
+    text-align: center;
+    left: 5px;
+    bottom: 5px;
+    margin: auto;
+    width: 0;
+    height: 3px;
+    background-color: var(--color-6);
+}
 .nav-link:hover {
     transition: all 300ms ease;
-    text-decoration: underline;
+}
+.nav-link:hover::after {
+    content: "";
+    transition: all 500ms ease;
+    width: 90%;
+    height: 3px;
+}
+.search-btn {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 100px;
+    padding: 1px 5px;
+}
+.search-btn:hover, .search-btn:active {
+    transition: all 300ms ease;
+    background-color: #CACACA;
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 768px) {
+    .nav-link:hover::after {
+        content: "";
+        width: 0%;
+    }
 }
