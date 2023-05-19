@@ -12,7 +12,6 @@ html {
 }
 body.landing {
     height: 100%;
-    padding: 10px 0 0 0;
     background-color: var(--color-1);
 }
 
