@@ -45,8 +45,6 @@ body.landing {
     font-weight: bold;
 }
 
-
-
 /* overrides */
 .color-override-5 {
     --bs-btn-color: var(--color-5);
@@ -62,6 +60,13 @@ body.landing {
     --bs-dropdown-link-active-bg: var(--color-5);
     --bs-dropdown-link-hover-color: white;
 }
+.text-color-5 {
+    color: var(--color-5);
+}
+.text-color-6 {
+    color: var(--color-6);
+}
+
 .nav-link {
     position: relative;
 }
