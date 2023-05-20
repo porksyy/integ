@@ -81,7 +81,7 @@ body {
 
 .links{
     margin: 0 auto;
-    height: fit-content;
+    height: 100vh;
     width:100%;
     border-radius: 150px 150px 0px 0px;
     background-color: var(--color-7);
