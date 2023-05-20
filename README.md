@@ -1,0 +1,3 @@
+- MINIMUM 5 skills needed for the job
+- MINIMUM 5 task & responsibilities of the job
+- MINIMUM 3 other related careers
