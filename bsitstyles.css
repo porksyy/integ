@@ -73,6 +73,9 @@ body {
 
 
 @media screen and (max-width: 768px) {
+
+    
+
     .nav-link:hover::after {
         content: "";
         width: 0%;
