@@ -11,56 +11,50 @@
 
         <link href="styles.css" rel="stylesheet" type="text/css">
         <link href="css/breadcrumb.css" rel="stylesheet" type="text/css">
-        <style>
-            table, tr, td{
-                border-collapse: collapse;
-                border: 1px solid var(--color-4);
-                padding:10px;
-            }
-            table{
-                width:100%;
-            }
-        </style>
+        <link href="css/jobs.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-md p-3" style="background-color: var(--color-4)">
+        <nav class="navbar navbar-expand-md p-3">
             <a class="navbar-brand fs-5 text-white" href="#"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <nav class="divider-override" aria-label="breadcrumb">
+                    <ol class="breadcrumb p-1">
+                        <!-- TODO add links -->
+                        <li class="breadcrumb-item"><a href="index.html" class="text-color-5 text-decoration-none bredcrumb-link">Home</a></li>
+                        <li class="breadcrumb-item"><a href="BSEMCG.html" class="text-color-5 text-decoration-none bredcrumb-link">BSEMCG</a></li>
+                        <li class="breadcrumb-item"><a href="#" class="text-color-5 text-decoration-none bredcrumb-link">Game Developer</a></li>
+                    </ol>
+                </nav>
                 <ul class="navbar-nav color-override-white fw-bold" style="margin-left:auto;">
                     <li class="nav-item">
-                        <a class="nav-link nav-link-bg-color-override fs-5" href="#">Contact Us</a>
+                        <a class="nav-link color-override-5 fs-5" href="#">Contact Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-bg-color-override fs-5" href="#">About Us</a>
+                        <a class="nav-link color-override-5 fs-5" href="#">About Us</a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <nav style="background-color: var(--color-2);" class="divider-override" aria-label="breadcrumb">
-            <ol class="breadcrumb p-1">
-                <!-- TODO add links -->
-                <li class="breadcrumb-item"><a href="index.html" class="text-color-5 text-decoration-none bredcrumb-link">Home</a></li>
-                <li class="breadcrumb-item"><a href="BSEMCG.html" class="text-color-5 text-decoration-none bredcrumb-link">BSEMCG</a></li>
-                <li class="breadcrumb-item"><a href="#" class="text-color-5 text-decoration-none bredcrumb-link">Game Developer</a></li>
-            </ol>
-        </nav>
-        <div class="container bg-white p-5">
-            <ol>
-                <h2><li type="none">Game Developer</h2>
+        <div class="container">
+                <h2>Game Developer</h2>
                 <img src="https://online.njit.edu/sites/online/files/7%20Essential%20Skills%20%20Need%20Become%20Video%20Game%20Designer.jpg" style="width:80%;height:auto;margin:auto;" class="d-block">
 
-                <p class="fs-5 p-3">A career as a game developer offers an exciting and dynamic path for individuals passionate about both technology and creativity. Game developers are the masterminds behind the creation and production of video games, bringing together their programming skills, design expertise, and storytelling abilities to craft immersive digital experiences. They play a crucial role in every stage of game development, from conceptualization and prototyping to programming, art and graphics, audio implementation, and quality assurance.
+                <p class="fs-5">A career as a game developer offers an exciting and dynamic path for individuals passionate about both technology and creativity. Game developers are the masterminds behind the creation and production of video games, bringing together their programming skills, design expertise, and storytelling abilities to craft immersive digital experiences. They play a crucial role in every stage of game development, from conceptualization and prototyping to programming, art and graphics, audio implementation, and quality assurance.
                     <br><br>Game developers often work in teams, collaborating with artists, designers, writers, and audio engineers to create engaging gameplay mechanics, captivating visuals, and compelling narratives. They leverage their knowledge of programming languages, game engines, and development tools to bring their ideas to life, whether it's developing gameplay systems, designing interactive environments, creating character behaviors, or integrating audio elements.
                     <br><br>This career offers a unique blend of technical and creative skills, requiring a deep understanding of game design principles, strong problem-solving abilities, and a passion for pushing the boundaries of technology and entertainment. Game developers have the opportunity to shape the experiences of players and leave a lasting impact through the games they create, making it a fulfilling and rewarding career choice for those who are passionate about gaming and technology.
                 </p>
-
                 <table>
+					<tr>
+						<th>Average salary:</th>
+						<th colspan="5">Common skills needed:</th>
+						<th colspan="5">Common tasks & responsibilties:</th>
+					</tr>
                     <tr>
-                        <td><b>Average salary:</b><br>₱25,000 - ₱40,000</td>
-                        <td rowspan="12"><b>Common skills needed:</b><br>
+                        <td>₱25,000 - ₱40,000</td>
+                        <td colspan="5" rowspan="5">
                             <ul>
                                 <li>Proficiency in languages like C++, C#, Java, or Python for implementing game mechanics and optimizing performance.</li>
                                 <li>Understanding game design principles to create engaging and immersive experiences for players.</li>
@@ -72,8 +66,7 @@
                                 <li>Being adaptable, embracing new technologies, and continuously learning in a rapidly evolving industry.</li>		
                             </ul>
                         </td>
-
-                        <td rowspan="12"><b>Common tasks & responsibilties:</b><br>
+                        <td colspan="5" rowspan="5">
                             <ul>
                                 <li>Implementing game mechanics, including player controls, artificial intelligence, and gameplay rules.</li>
                                 <li>Designing and creating game levels, environments, and interactive elements.</li>
@@ -86,7 +79,10 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><b>Other related careers:</b><br>
+                        <th>Other related careers:</th>
+                    </tr>
+                    <tr>
+                        <td>
                             <ul>
                                 <li><a href="BSEMCG-job2.html" class="text-decoration-none text-black">Game Designer</a></li>
                                 <li><a href="BSEMCG-job3.html" class="text-decoration-none text-black">Game Audio Engineeer</a></li>
@@ -94,8 +90,7 @@
                             </ul>
                         </td>
                     </tr>
-                </table>		
-            </ol>
-        </div> 
+                </table>
+        </div>
     </body>
 </html>

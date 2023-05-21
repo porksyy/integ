@@ -11,45 +11,35 @@
 
         <link href="styles.css" rel="stylesheet" type="text/css">
         <link href="css/breadcrumb.css" rel="stylesheet" type="text/css">
-        <style>
-            table, tr, td{
-                border-collapse: collapse;
-                border: 1px solid var(--color-4);
-                padding:10px;
-            }
-            table{
-                width:100%;
-            }
-        </style>
+        <link href="css/jobs.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-md p-3" style="background-color: var(--color-4)">
+        <nav class="navbar navbar-expand-md p-3">
             <a class="navbar-brand fs-5 text-white" href="#"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <nav class="divider-override" aria-label="breadcrumb">
+                    <ol class="breadcrumb p-1">
+                        <!-- TODO add links -->
+                        <li class="breadcrumb-item"><a href="index.html" class="text-color-5 text-decoration-none bredcrumb-link">Home</a></li>
+                        <li class="breadcrumb-item"><a href="BSEMCG.html" class="text-color-5 text-decoration-none bredcrumb-link">BSEMCG</a></li>
+                        <li class="breadcrumb-item"><a href="#" class="text-color-5 text-decoration-none bredcrumb-link">Game Designer</a></li>
+                    </ol>
+                </nav>
                 <ul class="navbar-nav color-override-white fw-bold" style="margin-left:auto;">
                     <li class="nav-item">
-                        <a class="nav-link nav-link-bg-color-override fs-5" href="#">Contact Us</a>
+                        <a class="nav-link color-override-5 fs-5" href="#">Contact Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-bg-color-override fs-5" href="#">About Us</a>
+                        <a class="nav-link color-override-5 fs-5" href="#">About Us</a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <nav style="background-color: var(--color-2);" class="divider-override" aria-label="breadcrumb">
-            <ol class="breadcrumb p-1">
-                <!-- TODO add links -->
-                <li class="breadcrumb-item"><a href="index.html" class="text-color-5 text-decoration-none bredcrumb-link">Home</a></li>
-                <li class="breadcrumb-item"><a href="BSEMCG.html" class="text-color-5 text-decoration-none bredcrumb-link">BSEMCG</a></li>
-                <li class="breadcrumb-item"><a href="#" class="text-color-5 text-decoration-none bredcrumb-link">Game Designer</a></li>
-            </ol>
-        </nav>
-        <div class="container bg-white p-5">
-            <ol>
-                <h2><li type="none">Game Designer</h2>
+        <div class="container">
+                <h2>Game Designer</h2>
                 <img src="https://careersmaster.ug/app/uploads/careers/KFVRGwaJuxoE4WUufnYnqybdn4SIdmSz.jpg" style="width:90%;height:auto;margin:auto;" class="d-block">
                 <p class="fs-5 p-3">A career as a game designer offers a unique opportunity for individuals with a passion for both creativity and problem-solving. Game designers are the visionaries behind the overall gameplay experience, responsible for conceptualizing and shaping the mechanics, levels, and narrative elements of video games. They combine their imagination with a deep understanding of player psychology, user experience, and game design principles to create captivating and immersive gaming experiences.
                     <br><br>Game designers work closely with teams of artists, programmers, and audio engineers to bring their ideas to life. They are involved in every stage of game development, from initial brainstorming and prototyping to iterative design iterations and user testing. They craft game mechanics, design compelling levels and puzzles, develop engaging characters, and ensure a cohesive and enjoyable gameplay flow. Game designers also collaborate with narrative writers to weave captivating storylines that resonate with players. Their ability to balance creativity with technical feasibility, player engagement, and market trends is vital in creating successful and memorable games.
@@ -57,9 +47,14 @@
                 </p>
 
                 <table>
+					<tr>
+						<th>Average salary:</th>
+						<th colspan="5">Common skills needed:</th>
+						<th colspan="5">Common tasks & responsibilties:</th>
+					</tr>
                     <tr>
-                        <td><b>Average salary:</b><br>₱20,000 - ₱35,000</td>
-                        <td rowspan="12"><b>Common skills needed:</b><br>
+                        <td>₱20,000 - ₱35,000</td>
+                        <td colspan="5" rowspan="5">
                             <ul>
                                 <li>Proficiency in game design principles and mechanics.</li>
                                 <li>Creativity and imagination to develop innovative concepts.</li>
@@ -68,8 +63,7 @@
                                 <li>Familiarity with game design software and tools.</li>
                             </ul>
                         </td>
-
-                        <td rowspan="12"><b>Common tasks & responsibilties:</b><br>
+                        <td colspan="5" rowspan="5">
                             <ul>
                                 <li>Conceptualizing and designing gameplay mechanics, levels, and overall game structure.</li>
                                 <li>Creating and iterating on game prototypes to test and refine gameplay elements.</li>
@@ -81,7 +75,10 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><b>Other related careers:</b><br>
+                        <th>Other related careers:</th>
+                    </tr>
+                    <tr>
+                        <td>
                             <ul>
                                 <li><a href="BSEMCG-job1.html" class="text-decoration-none text-black">Game Developer</a></li>
                                 <li><a href="BSEMCG-job3.html" class="text-decoration-none text-black">Game Audio Engineeer</a></li>
@@ -89,8 +86,7 @@
                             </ul>
                         </td>
                     </tr>
-                </table>		
-            </ol>
-        </div> 
+                </table>
+        </div>
     </body>
 </html>
