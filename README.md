@@ -2,6 +2,7 @@
 - MINIMUM 5 tasks & responsibilities of the job
 - MINIMUM 3 other related careers
 
+
 HTML layout examples.
 - Where to Apply?    (companyBSEMC.html)
 - BSEMC intro        (bsemc.html)
