@@ -3,7 +3,7 @@
 - MINIMUM 3 other related careers
 
 
-HTML layout examples.
+HTML Layout Examples:
 - Where to Apply?    (companyBSEMC.html)
 - BSEMC intro        (bsemc.html)
 - Job Description    (animator.html)
