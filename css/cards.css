@@ -41,3 +41,7 @@
     transition: all 500ms ease;
     margin-left: -8px;
 }
+
+.col-md-4{
+    margin-top:30px;
+}

@@ -11,11 +11,29 @@
 
     <link href="styles.css" rel="stylesheet" type="text/css">
     <link href="css/cards.css" rel="stylesheet" type="text/css">
+    <link href="css/course-dropdown.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <!--nav bar-->
     <nav class="navbar navbar-expand-md p-3">
-        <a class="navbar-brand fs-5 text-white" href="#"></a>
+        <!-- Course Dropdown -->
+        <div class="navbar-brand course-dropdown">
+              <div class="dropdown" style="position:relative;width:fit-content">
+                  <button class="btn btn-primary dropdown-toggle dropdown-override fw-bold" type="button" id="course-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BSEMCG</button>
+                  <div class="dropdown-menu" aria-labelledby="course-dropdown">
+                      <a class="dropdown-item color-override-5" href="BSIT.html">BSIT</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item color-override-5" href="BSCS.html">BSCS</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item color-override-5" href="BSIS.html">BSIS</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item color-override-5" href="BSEMC.html">BSEMC</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item color-override-5" href="BSDS.html">BSDS</a>
+                      <div class="dropdown-divider"></div>
+                  </div>
+              </div>
+        </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -32,17 +50,51 @@
     </nav>
     <h2 align="center">Find something that interests you?</h2>
     <div class="job-links">
-        <div class="container" style="padding: 70px;">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card-cs">
-                        <div class="card-img-container">
-                            <img style="width:50%;" src="https://cdn-icons-png.flaticon.com/512/1622/1622508.png" alt="">
+        <div class="container-fluid" style="padding: 30px 100px;background-color: var(--color-7);border-radius: 200px 200px 0px 0px;">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card-cs">
+                            <div class="card-img-container">
+                                <img style="width:50%;" src="imgs/game-developer-icon.svg" alt="">
+                            </div>
+                            <div class="title">
+                                <h3>Game Developer</h3>
+                            </div>
+                            <a href="BSEMCG-job1.html" class="text-decoration-none"><span class="fs-6">more info</span> <img src="imgs/arrow.svg" alt=""><img src="imgs/arrow.svg" alt=""></a>
                         </div>
-                        <div class="title">
-                            <h3>Game Developer</h3>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card-cs">
+                            <div class="card-img-container">
+                                <img style="width:50%;" src="imgs/game-designer-icon.svg" alt="">
+                            </div>
+                            <div class="title">
+                                <h3>Game Designer</h3>
+                            </div>
+                            <a href="BSEMCG-job2.html" class="text-decoration-none"><span class="fs-6">more info</span> <img src="imgs/arrow.svg" alt=""><img src="imgs/arrow.svg" alt=""></a>
                         </div>
-                        <a href="BSEMCG-job1.html" class="text-decoration-none"><span class="fs-6">more info</span> <img src="imgs/arrow.svg" alt=""><img src="imgs/arrow.svg" alt=""></a>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card-cs">
+                            <div class="card-img-container">
+                                <img style="width:50%;" src="imgs/game-audio-icon.svg" alt="">
+                            </div>
+                            <div class="title">
+                                <h3>Game Audio Engineer</h3>
+                            </div>
+                            <a href="BSEMCG-job3.html" class="text-decoration-none"><span class="fs-6">more info</span> <img src="imgs/arrow.svg" alt=""><img src="imgs/arrow.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card-cs">
+                            <div class="card-img-container">
+                                <img style="width:50%;" src="imgs/game-tester-icon.svg" alt="">
+                            </div>
+                            <div class="title">
+                                <h3>Game Tester</h3>
+                            </div>
+                            <a href="BSEMCG-job4.html" class="text-decoration-none"><span class="fs-6">more info</span> <img src="imgs/arrow.svg" alt=""><img src="imgs/arrow.svg" alt=""></a>
+                        </div>
                     </div>
                 </div>
             </div>
