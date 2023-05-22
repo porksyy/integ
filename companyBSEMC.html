@@ -22,33 +22,40 @@
 <body>
     <!--nav bar-->
     <nav class="navbar navbar-expand-md p-3">
-        <a class="navbar-brand fs-5 text-white" href="#"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-			<nav class="divider-override" aria-label="breadcrumb">
-				<ol class="breadcrumb p-1">
-					<!-- TODO add links -->
-					<li class="breadcrumb-item"><a href="index.html" class="text-color-5 text-decoration-none breadcrumb-link">Home</a></li>
-					<li class="breadcrumb-item"><a href="BSEMC.html" class="text-color-5 text-decoration-none breadcrumb-link">BSEMC</a></li>
-					<li class="breadcrumb-item"><a href="jobsBSEMC.html" class="text-color-5 text-decoration-none breadcrumb-link">Jobs</a></li>
-					<li class="breadcrumb-item"><a href="" class="text-color-5 text-decoration-none breadcrumb-link">Where to Apply?</a></li>
-				</ol>
-			</nav>
-		
-            <ul class="navbar-nav color-override-5 fw-bold" style="margin-left:auto;">
-		<li class="nav-item">
-                    <a class="nav-link fs-5" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link fs-5" href="contact-us.html">Contact Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link fs-5" href="about-us.html">About Us</a>
-                </li>
-            </ul>
-        </div>
+            <!-- Course Dropdown -->
+            <div class="navbar-brand course-dropdown">
+                <div class="dropdown" style="position:relative;width:fit-content">
+                    <button class="btn btn-primary dropdown-toggle dropdown-override fw-bold" type="button" id="course-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BSEMC</button>
+                    <div class="dropdown-menu" aria-labelledby="course-dropdown">
+                        <a class="dropdown-item color-override-5" href="BSIT.html">BSIT</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item color-override-5" href="BSCS.html">BSCS</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item color-override-5" href="BSIS.html">BSIS</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item color-override-5" href="BSEMCG.html">BSEMCG</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item color-override-5" href="BSDS.html">BSDS</a>
+                        <div class="dropdown-divider"></div>
+                    </div>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav color-override-5 fw-bold" style="margin-left:auto;">
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="contact-us.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="about-us.html">About Us</a>
+                    </li>
+                </ul>
+          </div>
     </nav>
     <h2 align="center">Find something that interests you?</h2>
     <div class="links">
