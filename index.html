@@ -76,10 +76,11 @@
       let prog_select = document.getElementById('course-dropdown');
       let search_link = document.getElementById('search');
       const COURSE = ["BSIT","BSCS","BSIS","BSEMC","BSDS","BSEMCG"];
+      const LINK = ["BSIT/bsit","BSCS/jobsBSCS","BSIS","BSEMC","BSDS/bsds","BSEMCG/bsemcg-pages/BSEMCG-jobs"];
       function upd_course_text(id){ 
           prog_select.innerHTML = COURSE[id];
           // TODO change to link
-          search_link.href = COURSE[id] + ".html";
+          search_link.href = LINK[id] + ".html";
       }
   </script>
 </html>
