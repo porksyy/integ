@@ -1,0 +1,109 @@
+.card-cs {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+}
+.card-img-container {
+    width: 100%;
+    height: fit-content;
+    border-radius: inherit;
+}
+.card-img-container > img {
+    display: block;
+    height: auto;
+    margin: auto;
+    object-fit: cover;
+    /* border-radius: inherit; */
+}
+.card-cs > .title {
+    color: var(--color-4);
+    text-align: center;
+}
+.card-cs > a {
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+    color: #8F8F8F;
+}
+.card-cs > a:hover > span {
+    text-decoration: underline;
+}
+.card-cs > a > img {
+    transition: all 500ms ease;
+    margin-left: -10px;
+    width: 15px;
+    height: auto;
+}
+.card-cs > a:hover > img {
+    transition: all 500ms ease;
+    margin-left: -8px;
+}
+.col-md-4{
+    margin-top:30px;
+}
+.about-author-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* grid-template-columns: auto auto auto; */
+    /* grid-template-rows: min-content; */
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+.card-cs.author {
+    color: black;
+    height: fit-content;
+    width: 30%;
+    padding: 0px;
+}
+.card-cs.author > .card-text > h1 {
+    font-size: 1.7em;
+}
+.card-cs.author > .card-text > h1 > a {
+    position: relative;
+    color: inherit;
+    text-decoration: none;
+}
+.card-cs.author > .card-text > h1 > img {
+    padding-left: 5px;
+    width: 20px;
+    height: auto;
+}
+.card-cs.author > .card-text > h1 > a::after {
+    content: "";
+    transition: all 300ms ease;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: var(--color-4);
+}
+.card-cs.author > .card-text > h1 > a:hover {
+    color: var(--color-4);
+}
+.card-cs.author > .card-text > h1 > a:hover::after {
+    transition: all 300ms ease;
+    position: absolute;
+    width: 100%;
+}
+.card-cs.author > .card-text > p {
+    margin: 0;
+}
+.card-cs.author > .card-text {
+    padding: 10px 20px;
+}
+.card-cs.author > .card-img-container {
+    padding: 0;
+}
+.card-cs.author > .card-img-container > img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+}
