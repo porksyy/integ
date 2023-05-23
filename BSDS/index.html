@@ -21,13 +21,10 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav color-override-5 fw-bold" style="margin-left:auto;">
                   <li class="nav-item">
-                      <a class="nav-link fs-5" href="contact-us.html">Contact Us</a>
+                      <a class="nav-link fs-5" href="#">Contact Us</a>
                   </li>
                   <li class="nav-item">
                       <a class="nav-link fs-5" href="#">About Us</a>
-                  </li>                
-                <li class="nav-item">
-                      <a class="nav-link fs-5" href="about-author.html">About The Author</a>
                   </li>
               </ul>
           </div>
@@ -76,11 +73,10 @@
       let prog_select = document.getElementById('course-dropdown');
       let search_link = document.getElementById('search');
       const COURSE = ["BSIT","BSCS","BSIS","BSEMC","BSDS","BSEMCG"];
-      const LINK = ["BSIT/bsit","BSCS/jobsBSCS","BSIS","BSEMC","BSDS/bsds","BSEMCG/bsemcg-pages/BSEMCG-jobs"];
       function upd_course_text(id){ 
           prog_select.innerHTML = COURSE[id];
           // TODO change to link
-          search_link.href = LINK[id] + ".html";
+          search_link.href = COURSE[id] + ".html";
       }
   </script>
 </html>
