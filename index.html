@@ -76,10 +76,14 @@
       let prog_select = document.getElementById('course-dropdown');
       let search_link = document.getElementById('search');
       const COURSE = ["BSIT","BSCS","BSIS","BSEMC","BSDS","BSEMCG"];
-      const LINK = ["BSIT/bsit","BSCS/jobsBSCS","BSIS","BSEMC","BSDS/bsds","BSEMCG/bsemcg-pages/BSEMCG-jobs"];
-      function upd_course_text(id){ 
+      const LINK = ["BSIT/bsit","BSCS/BSCS%20final/BSCS", "BSIS","BSEMC/jobsBSEMC","BSDS/bsds","BSEMCG/bsemcg-pages/BSEMCG-jobs"];
+      function upd_course_text(id){
           prog_select.innerHTML = COURSE[id];
           // TODO change to link
+          if (id == 2) {
+              search_link.hred = "#";
+              return;
+          }
           search_link.href = LINK[id] + ".html";
       }
   </script>
